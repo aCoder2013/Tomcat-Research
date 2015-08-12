@@ -161,7 +161,6 @@ public class WebappClassLoader extends URLClassLoader
 
     }
 
-
     protected static final class PrivilegedGetClassLoader
         implements PrivilegedAction<ClassLoader> {
 

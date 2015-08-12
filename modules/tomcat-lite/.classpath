@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry excluding="org/apache/tomcat/lite/servlet/ServletApi30.java" kind="src" path="java"/>
 	<classpathentry excluding="org/apache/coyote/servlet/" kind="src" path="test"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
 	<classpathentry kind="lib" path="target/lib/annotations-api.jar"/>
 	<classpathentry kind="lib" path="target/lib/ant-launcher.jar"/>

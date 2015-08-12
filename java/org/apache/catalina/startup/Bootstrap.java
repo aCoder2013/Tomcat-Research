@@ -77,6 +77,8 @@ public final class Bootstrap {
         if (home != null) {
             File f = new File(home);
             try {
+                //getCanonicalFile():
+                // 该方法返回同一个文件或目录的规范路径名字符串表示
                 homeFile = f.getCanonicalFile();
             } catch (IOException ioe) {
                 homeFile = f.getAbsoluteFile();
@@ -151,6 +153,9 @@ public final class Bootstrap {
     // -------------------------------------------------------- Private Methods
 
 
+    /*
+        初始化类加载器
+     */
     private void initClassLoaders() {
         try {
             commonLoader = createClassLoader("common", null);
@@ -173,6 +178,9 @@ public final class Bootstrap {
     //server.loader
     //shared.loader
     //默认只配置了common.loader，其他两个为空
+    //common.loader=
+    // "${catalina.base}/lib","${catalina.base}/lib/*.jar"
+    // ,"${catalina.home}/lib","${catalina.home}/lib/*.jar"
     private ClassLoader createClassLoader(String name, ClassLoader parent)
         throws Exception {
 
@@ -224,7 +232,7 @@ public final class Bootstrap {
 
     /**
      * System property replacement in the given string.
-     *
+     *common.loader="${catalina.base}/lib","${catalina.base}/lib/*.jar","${catalina.home}/lib","${catalina.home}/lib/*.jar"
      * @param str The original string
      * @return the modified string
      */
@@ -473,7 +481,7 @@ public final class Bootstrap {
      * @param args Command line arguments to be processed
      */
     public static void main(String args[]) {
-
+        System.out.println("Hello Tomcat!");
         if (daemon == null) {
             // Don't set daemon until init() has completed
             Bootstrap bootstrap = new Bootstrap();

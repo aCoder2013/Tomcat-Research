@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tomcat-Research-trunk.iml" filepath="$PROJECT_DIR$/Tomcat-Research-trunk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/launch/webapps/examples/WEB-INF/WEB-INF.iml" filepath="$PROJECT_DIR$/launch/webapps/examples/WEB-INF/WEB-INF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapps/examples/WEB-INF/WEB-INF1.iml" filepath="$PROJECT_DIR$/webapps/examples/WEB-INF/WEB-INF1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/bayeux/bayeux.iml" filepath="$PROJECT_DIR$/modules/bayeux/bayeux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapps/examples/WEB-INF/jsp/jsp.iml" filepath="$PROJECT_DIR$/webapps/examples/WEB-INF/jsp/jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/launch/webapps/examples/WEB-INF/jsp/jsp1.iml" filepath="$PROJECT_DIR$/launch/webapps/examples/WEB-INF/jsp/jsp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/jdbc-pool/src/main/main.iml" filepath="$PROJECT_DIR$/modules/jdbc-pool/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapps/examples/jsp/plugin/plugin.iml" filepath="$PROJECT_DIR$/webapps/examples/jsp/plugin/plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/launch/webapps/examples/jsp/plugin/plugin1.iml" filepath="$PROJECT_DIR$/launch/webapps/examples/jsp/plugin/plugin1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webapps/docs/appdev/sample/sample.iml" filepath="$PROJECT_DIR$/webapps/docs/appdev/sample/sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/jdbc-pool/src/test/test.iml" filepath="$PROJECT_DIR$/modules/jdbc-pool/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/tomcat-lite/tomcat-lite.iml" filepath="$PROJECT_DIR$/modules/tomcat-lite/tomcat-lite.iml" />
+    </modules>
+  </component>
+</project>
